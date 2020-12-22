@@ -7,7 +7,8 @@ let state = {
 			{id: 2, message: "Hi", likesCount: 13},
 			{id: 3, message: "Good", likesCount: 14},
 			{id: 4, message: "Nice", likesCount: 15}
-		]
+		],
+		newPostText: 'it'
 	},
 	dialogsPage: {
 		dialogs: [
@@ -25,13 +26,21 @@ let state = {
 	}
 }
 
-export let addPost = (postMessage) => {
+window.state = state; // відображення у консолі зміни у state
+
+export let addPost = () => {
 	let newPost ={
 		id: 5,
-		message: postMessage,
+		message: state.profilePage.newPostText,
 		likesCount: 0
 	};
 	state.profilePage.posts.push(newPost);
+	state.profilePage.newPostText = '';
+	rerenderEntireTree(state);
+}
+
+export let updateNewPostText = (newText) => { // обновляємо state даними, які приходять з поля вводу поста
+	state.profilePage.newPostText = newText;
 	rerenderEntireTree(state);
 }
 
