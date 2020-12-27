@@ -27,7 +27,7 @@ let store = {
 	getState() {
 		return this._state;
 	},
-	rerenderEntireTree () {
+	_callSubscriber() {
 		console.log('State changed')
 	},
 	addPost () {
@@ -38,14 +38,14 @@ let store = {
 		};
 		this._state.profilePage.posts.push(newPost);
 		this._state.profilePage.newPostText = '';
-		this._rerenderEntireTree(this._state);
+		this._callSubscriber(this._state);
 	},
 	updateNewPostText (newText)  { // обновляємо state даними, які приходять з поля вводу поста
 		this._state.profilePage.newPostText = newText;
 		this._rerenderEntireTree(this._state);
 	},
 	subscribe (observer) {
-		this._rerenderEntireTree = observer;
+		this._callSubscriber = observer;
 	}
 }
 
