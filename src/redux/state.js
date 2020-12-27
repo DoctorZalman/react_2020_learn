@@ -1,5 +1,7 @@
-import {rerenderEntireTree} from "../render";
-
+// import {rerenderEntireTree} from "../render";
+let rerenderEntireTree = () => {
+	console.log('State changed')
+}
 let state = {
 	profilePage: {
 		posts: [
@@ -28,7 +30,7 @@ let state = {
 
 window.state = state; // відображення у консолі зміни у state
 
-export let addPost = () => {
+export const addPost = () => {
 	let newPost ={
 		id: 5,
 		message: state.profilePage.newPostText,
@@ -39,9 +41,13 @@ export let addPost = () => {
 	rerenderEntireTree(state);
 }
 
-export let updateNewPostText = (newText) => { // обновляємо state даними, які приходять з поля вводу поста
+export const updateNewPostText = (newText) => { // обновляємо state даними, які приходять з поля вводу поста
 	state.profilePage.newPostText = newText;
 	rerenderEntireTree(state);
+}
+
+export const subscribe = (observer) => {
+	rerenderEntireTree = observer;
 }
 
 export default state;
