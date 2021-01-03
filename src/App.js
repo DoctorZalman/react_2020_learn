@@ -6,10 +6,8 @@ import Profile from "./components/Profile/Profile";
 import {BrowserRouter, Route} from "react-router-dom";
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 
-
 const App = () => {
 	return (
-
 			<div className="app-wrapper">
 				<Header/>
 				<Navbar/>
