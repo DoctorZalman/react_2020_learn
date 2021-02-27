@@ -1,31 +1,31 @@
 {
   "files": {
     "main.css": "/react_2020_learn/static/css/main.607ef2dd.chunk.css",
-    "main.js": "/react_2020_learn/static/js/main.06b18979.chunk.js",
-    "main.js.map": "/react_2020_learn/static/js/main.06b18979.chunk.js.map",
-    "runtime-main.js": "/react_2020_learn/static/js/runtime-main.73e17778.js",
-    "runtime-main.js.map": "/react_2020_learn/static/js/runtime-main.73e17778.js.map",
-    "static/js/2.dd54410f.chunk.js": "/react_2020_learn/static/js/2.dd54410f.chunk.js",
-    "static/js/2.dd54410f.chunk.js.map": "/react_2020_learn/static/js/2.dd54410f.chunk.js.map",
+    "main.js": "/react_2020_learn/static/js/main.cb0a7f18.chunk.js",
+    "main.js.map": "/react_2020_learn/static/js/main.cb0a7f18.chunk.js.map",
+    "runtime-main.js": "/react_2020_learn/static/js/runtime-main.9d22ad08.js",
+    "runtime-main.js.map": "/react_2020_learn/static/js/runtime-main.9d22ad08.js.map",
+    "static/js/2.9ab4145e.chunk.js": "/react_2020_learn/static/js/2.9ab4145e.chunk.js",
+    "static/js/2.9ab4145e.chunk.js.map": "/react_2020_learn/static/js/2.9ab4145e.chunk.js.map",
     "static/css/3.445baa1c.chunk.css": "/react_2020_learn/static/css/3.445baa1c.chunk.css",
-    "static/js/3.5149053e.chunk.js": "/react_2020_learn/static/js/3.5149053e.chunk.js",
-    "static/js/3.5149053e.chunk.js.map": "/react_2020_learn/static/js/3.5149053e.chunk.js.map",
+    "static/js/3.abb89613.chunk.js": "/react_2020_learn/static/js/3.abb89613.chunk.js",
+    "static/js/3.abb89613.chunk.js.map": "/react_2020_learn/static/js/3.abb89613.chunk.js.map",
     "static/css/4.f3ce70e4.chunk.css": "/react_2020_learn/static/css/4.f3ce70e4.chunk.css",
-    "static/js/4.7d1116de.chunk.js": "/react_2020_learn/static/js/4.7d1116de.chunk.js",
-    "static/js/4.7d1116de.chunk.js.map": "/react_2020_learn/static/js/4.7d1116de.chunk.js.map",
+    "static/js/4.63258bfe.chunk.js": "/react_2020_learn/static/js/4.63258bfe.chunk.js",
+    "static/js/4.63258bfe.chunk.js.map": "/react_2020_learn/static/js/4.63258bfe.chunk.js.map",
     "static/js/5.80b8d09b.chunk.js": "/react_2020_learn/static/js/5.80b8d09b.chunk.js",
     "static/js/5.80b8d09b.chunk.js.map": "/react_2020_learn/static/js/5.80b8d09b.chunk.js.map",
     "index.html": "/react_2020_learn/index.html",
     "static/css/3.445baa1c.chunk.css.map": "/react_2020_learn/static/css/3.445baa1c.chunk.css.map",
     "static/css/4.f3ce70e4.chunk.css.map": "/react_2020_learn/static/css/4.f3ce70e4.chunk.css.map",
     "static/css/main.607ef2dd.chunk.css.map": "/react_2020_learn/static/css/main.607ef2dd.chunk.css.map",
-    "static/js/2.dd54410f.chunk.js.LICENSE.txt": "/react_2020_learn/static/js/2.dd54410f.chunk.js.LICENSE.txt",
+    "static/js/2.9ab4145e.chunk.js.LICENSE.txt": "/react_2020_learn/static/js/2.9ab4145e.chunk.js.LICENSE.txt",
     "static/media/hr.3e7bb820.png": "/react_2020_learn/static/media/hr.3e7bb820.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.73e17778.js",
-    "static/js/2.dd54410f.chunk.js",
+    "static/js/runtime-main.9d22ad08.js",
+    "static/js/2.9ab4145e.chunk.js",
     "static/css/main.607ef2dd.chunk.css",
-    "static/js/main.06b18979.chunk.js"
+    "static/js/main.cb0a7f18.chunk.js"
   ]
 }
