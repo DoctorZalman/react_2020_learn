@@ -35,5 +35,5 @@ let User = ({user, followingInProgress, unfollow, follow}) => {
 					</span>
 				</span>
 		</div>)
-}
+};
 export default User;
